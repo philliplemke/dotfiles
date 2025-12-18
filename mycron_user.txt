@@ -1,5 +1,7 @@
 # Edit this file to introduce tasks to be run by cron.
 # 
+*/30 * * * * /bin/bash /mnt/data/scripts/git-auto-backup.sh >> /mnt/data/scripts/git-auto-backup.log 2>&1
+
 # Each task to run has to be defined through a single line
 # indicating with different fields when the task will be run
 # and what command to run for the task
